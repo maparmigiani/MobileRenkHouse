@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="payment.CardInfo">
+
+    <TextView
+        android:id="@+id/lblCVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="88dp"
+        android:text="Expiration:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/lblExpirationDate"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblExpirationDate"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <EditText
+        android:id="@+id/txtCVV"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/txtMonth"
+        app:layout_constraintTop_toBottomOf="@+id/txtMonth" />
+
+    <TextView
+        android:id="@+id/lblExpirationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="184dp"
+        android:text="Expiration:"
+        app:layout_constraintEnd_toEndOf="@+id/lblLastName2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFirstName" />
+
+    <TextView
+        android:id="@+id/lblLastName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
+        android:text="Last Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFirstName" />
+
+    <EditText
+        android:id="@+id/txtLastName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/lblLastName"
+        app:layout_constraintTop_toBottomOf="@+id/txtFirstName" />
+
+    <TextView
+        android:id="@+id/lblLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
+        android:text="Last Name:"
+        app:layout_constraintEnd_toEndOf="@+id/lblFirstName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFirstName" />
+
+    <TextView
+        android:id="@+id/lblUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Card Information (Credit or Debit)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="First Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtFirstName" />
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Type your first name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/lblFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/lblUserInfo" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Type your last name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/txtFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/txtFirstName" />
+
+    <EditText
+        android:id="@+id/txtMonth"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="mm"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/txtLastName2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLastName2" />
+
+    <TextView
+        android:id="@+id/lblSlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="84dp"
+        android:background="#BDABDD"
+        android:text="/"
+        app:layout_constraintStart_toEndOf="@+id/txtMonth"
+        app:layout_constraintTop_toBottomOf="@+id/txtLastName2" />
+
+    <EditText
+        android:id="@+id/txtYear"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="yyyy"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMonth"
+        app:layout_constraintStart_toEndOf="@+id/lblSlash"
+        app:layout_constraintTop_toTopOf="@+id/txtMonth"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnApplyTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Process Payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCVV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

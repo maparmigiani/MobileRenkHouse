@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_all_types.xml" value="0.1" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_apartment.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_card_info.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_check_out.xml" value="0.1" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_condominium.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_detached_home.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_get_house.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_semi_detached_home.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_town_house.xml" value="0.25" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_type_rvadaptor.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/activity_types_activities.xml" value="0.1" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/home_info.xml" value="0.33" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/layout/type_info.xml" value="0.1" />
+        <entry key="..\:/Users/maiar/MobileApp/Mobile_Assignments/MaiaraAlmeida_COMP304_Lab2_Exerc01/app/src/main/res/menu/menudisplay.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

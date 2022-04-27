@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="All Options" android:id="@+id/menuItemAll"/>
+    <item android:title="Apartment" android:id="@+id/menuItemApartment" />
+    <item android:title="Detached Home" android:id="@+id/menuItemDetachedHome"/>
+    <item android:title="Semi-detached home" android:id="@+id/menuItemSemiDetached"/>
+    <item android:title="Condominium" android:id="@+id/menuItemCondominium"/>
+    <item android:title="Town House" android:id="@+id/menuItemTownHouse"/>
+    <item android:title="Selected Houses" android:id="@+id/menuCheckOut"/>
+
+</menu>

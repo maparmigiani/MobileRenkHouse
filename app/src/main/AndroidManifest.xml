@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maiaraalmeida_comp304_lab2_exerc01">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MK House Seeker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaiaraAlmeida_COMP304_Lab2_Exerc01">
+        <activity
+            android:name="payment.CardInfo"
+            android:exported="false" />
+        <activity
+            android:name="payment.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".CheckOut"
+            android:exported="false" />
+        <activity
+            android:name="HouseTypes.TownHouse"
+            android:exported="false" />
+        <activity
+            android:name="HouseTypes.SemiDetachedHome"
+            android:exported="false" />
+        <activity
+            android:name="HouseTypes.DetachedHome"
+            android:exported="false" />
+        <activity
+            android:name="HouseTypes.AllTypes"
+            android:exported="false"
+            android:label="@string/title_activity_all_types"
+            android:theme="@style/Theme.MaiaraAlmeida_COMP304_Lab2_Exerc01.NoActionBar" />
+        <activity
+            android:name="HouseTypes.Apartment"
+            android:exported="false" />
+        <activity
+            android:name="Recycler.HomeDetail"
+            android:exported="false" />
+        <activity
+            android:name="Recycler.TypeRVAdaptor"
+            android:exported="false" />
+        <activity
+            android:name=".TypesActivities"
+            android:exported="false" />
+        <activity
+            android:name=".GetHouse"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
